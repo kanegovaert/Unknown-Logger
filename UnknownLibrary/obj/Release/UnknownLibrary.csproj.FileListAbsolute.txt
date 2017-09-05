@@ -1,0 +1,6 @@
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\UnknownLibrary\bin\Release\UnknownLibrary.dll
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\UnknownLibrary\bin\Release\UnknownLibrary.pdb
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Release\UnknownLibrary.StubSource.SourceCodeForm.resources
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Release\UnknownLibrary.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Release\UnknownLibrary.dll
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Release\UnknownLibrary.pdb

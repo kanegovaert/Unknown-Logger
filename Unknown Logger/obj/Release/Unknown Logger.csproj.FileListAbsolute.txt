@@ -1,0 +1,7 @@
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown Logger.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown_Logger.HomeForm.resources
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown_Logger.Forms.KeyloggerForm.resources
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown_Logger.Forms.TermsofService.resources
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown_Logger.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown Logger.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger\obj\Release\Unknown_Logger.Forms.TermsofServiceForm.resources
