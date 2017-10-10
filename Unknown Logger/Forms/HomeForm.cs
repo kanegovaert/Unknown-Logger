@@ -7,7 +7,7 @@ namespace Unknown_Logger
 {
     public partial class HomeForm : MetroFramework.Forms.MetroForm
     {
-        internal string GithubURL = "https://www.github.com/kanegovaert";
+        internal string GithubURL = "http://kanegovaert.cf/";
         public HomeForm()
         {
             InitializeComponent();

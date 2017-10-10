@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Unknown Logger")]
 [assembly: AssemblyDescription("An advanced keylogger")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Kane Govaert")]
+[assembly: AssemblyCompany("Kaneke")]
 [assembly: AssemblyProduct("Unknown Logger")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]

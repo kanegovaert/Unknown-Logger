@@ -119,7 +119,7 @@
             // 
             this.LL_LinkToGithub.AutoSize = true;
             this.LL_LinkToGithub.LinkColor = System.Drawing.Color.Gray;
-            this.LL_LinkToGithub.Location = new System.Drawing.Point(432, 263);
+            this.LL_LinkToGithub.Location = new System.Drawing.Point(456, 263);
             this.LL_LinkToGithub.Name = "LL_LinkToGithub";
             this.LL_LinkToGithub.Size = new System.Drawing.Size(96, 17);
             this.LL_LinkToGithub.TabIndex = 6;
