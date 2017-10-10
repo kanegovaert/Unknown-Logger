@@ -1,0 +1,8 @@
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\bin\Debug\Unknown Stub.exe.config
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\bin\Debug\Unknown Stub.exe
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\bin\Debug\Unknown Stub.pdb
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\bin\Debug\UnknownLibrary.dll
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\bin\Debug\UnknownLibrary.pdb
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\obj\Debug\Unknown Stub.csprojResolveAssemblyReference.cache
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\obj\Debug\Unknown Stub.exe
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Stub\obj\Debug\Unknown Stub.pdb

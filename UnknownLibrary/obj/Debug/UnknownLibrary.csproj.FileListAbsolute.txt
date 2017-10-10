@@ -12,3 +12,10 @@ C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\UnknownLibrary\o
 C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Debug\UnknownLibrary.csproj.GenerateResource.Cache
 C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Debug\UnknownLibrary.dll
 C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\UnknownLibrary\obj\Debug\UnknownLibrary.pdb
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\bin\Debug\UnknownLibrary.dll
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\bin\Debug\UnknownLibrary.pdb
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\obj\Debug\UnknownLibrary.csprojResolveAssemblyReference.cache
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\obj\Debug\UnknownLibrary.StubSource.SourceCodeForm.resources
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\obj\Debug\UnknownLibrary.csproj.GenerateResource.Cache
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\obj\Debug\UnknownLibrary.dll
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\UnknownLibrary\obj\Debug\UnknownLibrary.pdb
