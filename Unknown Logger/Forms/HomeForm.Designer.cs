@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
             this.BTN_OpenKeyloggerForm = new MetroFramework.Controls.MetroButton();
             this.BTN_OpenFileBinderForm = new MetroFramework.Controls.MetroButton();
-            this.BTN_OpenChangeLogForm = new MetroFramework.Controls.MetroButton();
             this.BTN_OpenSpooferForm = new MetroFramework.Controls.MetroButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
@@ -42,7 +41,7 @@
             // BTN_OpenKeyloggerForm
             // 
             this.BTN_OpenKeyloggerForm.Highlight = false;
-            this.BTN_OpenKeyloggerForm.Location = new System.Drawing.Point(60, 112);
+            this.BTN_OpenKeyloggerForm.Location = new System.Drawing.Point(52, 147);
             this.BTN_OpenKeyloggerForm.Name = "BTN_OpenKeyloggerForm";
             this.BTN_OpenKeyloggerForm.Size = new System.Drawing.Size(245, 59);
             this.BTN_OpenKeyloggerForm.Style = MetroFramework.MetroColorStyle.Blue;
@@ -55,7 +54,7 @@
             // BTN_OpenFileBinderForm
             // 
             this.BTN_OpenFileBinderForm.Highlight = false;
-            this.BTN_OpenFileBinderForm.Location = new System.Drawing.Point(60, 186);
+            this.BTN_OpenFileBinderForm.Location = new System.Drawing.Point(52, 221);
             this.BTN_OpenFileBinderForm.Name = "BTN_OpenFileBinderForm";
             this.BTN_OpenFileBinderForm.Size = new System.Drawing.Size(245, 59);
             this.BTN_OpenFileBinderForm.Style = MetroFramework.MetroColorStyle.Blue;
@@ -63,30 +62,20 @@
             this.BTN_OpenFileBinderForm.TabIndex = 1;
             this.BTN_OpenFileBinderForm.Text = "File Binder";
             this.BTN_OpenFileBinderForm.Theme = MetroFramework.MetroThemeStyle.Light;
-            // 
-            // BTN_OpenChangeLogForm
-            // 
-            this.BTN_OpenChangeLogForm.Highlight = false;
-            this.BTN_OpenChangeLogForm.Location = new System.Drawing.Point(60, 334);
-            this.BTN_OpenChangeLogForm.Name = "BTN_OpenChangeLogForm";
-            this.BTN_OpenChangeLogForm.Size = new System.Drawing.Size(245, 59);
-            this.BTN_OpenChangeLogForm.Style = MetroFramework.MetroColorStyle.Blue;
-            this.BTN_OpenChangeLogForm.StyleManager = null;
-            this.BTN_OpenChangeLogForm.TabIndex = 3;
-            this.BTN_OpenChangeLogForm.Text = "Changelog";
-            this.BTN_OpenChangeLogForm.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.BTN_OpenFileBinderForm.Click += new System.EventHandler(this.BTN_OpenFileBinderForm_Click);
             // 
             // BTN_OpenSpooferForm
             // 
             this.BTN_OpenSpooferForm.Highlight = false;
-            this.BTN_OpenSpooferForm.Location = new System.Drawing.Point(60, 260);
+            this.BTN_OpenSpooferForm.Location = new System.Drawing.Point(52, 295);
             this.BTN_OpenSpooferForm.Name = "BTN_OpenSpooferForm";
             this.BTN_OpenSpooferForm.Size = new System.Drawing.Size(245, 59);
             this.BTN_OpenSpooferForm.Style = MetroFramework.MetroColorStyle.Blue;
             this.BTN_OpenSpooferForm.StyleManager = null;
             this.BTN_OpenSpooferForm.TabIndex = 2;
-            this.BTN_OpenSpooferForm.Text = "Spoofer";
+            this.BTN_OpenSpooferForm.Text = "Encrypt";
             this.BTN_OpenSpooferForm.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.BTN_OpenSpooferForm.Click += new System.EventHandler(this.BTN_OpenSpooferForm_Click);
             // 
             // pictureBox1
             // 
@@ -135,7 +124,6 @@
             this.Controls.Add(this.LL_LinkToGithub);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.BTN_OpenChangeLogForm);
             this.Controls.Add(this.BTN_OpenSpooferForm);
             this.Controls.Add(this.BTN_OpenFileBinderForm);
             this.Controls.Add(this.BTN_OpenKeyloggerForm);
@@ -152,7 +140,6 @@
 
         private MetroFramework.Controls.MetroButton BTN_OpenKeyloggerForm;
         private MetroFramework.Controls.MetroButton BTN_OpenFileBinderForm;
-        private MetroFramework.Controls.MetroButton BTN_OpenChangeLogForm;
         private MetroFramework.Controls.MetroButton BTN_OpenSpooferForm;
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroLabel metroLabel1;

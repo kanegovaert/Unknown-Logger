@@ -37,3 +37,6 @@ C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger B
 C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Logger\obj\Debug\Unknown Logger.csproj.GenerateResource.Cache
 C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Logger\obj\Debug\Unknown Logger.exe
 C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Logger\obj\Debug\Unknown Logger.pdb
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Logger\obj\Debug\Unknown_Logger.Forms.EncryptForm.resources
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Logger\obj\Debug\Unknown_Logger.Forms.FileBinderForm.resources
+C:\Users\#\Documents\Visual Studio 2017\Projects\Unknown Logger\Unknown Logger Beta\Unknown Logger\bin\Debug\MaterialSkin.dll

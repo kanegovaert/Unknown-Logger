@@ -103,6 +103,7 @@
             this.Controls.Add(this.BTN_Accept);
             this.Controls.Add(this.BTN_Decline);
             this.Controls.Add(this.TB_TermsOfServiceText);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(0, 0);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(550, 459);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KeyloggerForm));
             this.MTC_KeyloggerTabControl = new MetroFramework.Controls.MetroTabControl();
             this.MTP_Settings1 = new MetroFramework.Controls.MetroTabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -143,10 +144,10 @@
             this.MTC_KeyloggerTabControl.CustomBackground = false;
             this.MTC_KeyloggerTabControl.FontSize = MetroFramework.MetroTabControlSize.Medium;
             this.MTC_KeyloggerTabControl.FontWeight = MetroFramework.MetroTabControlWeight.Light;
-            this.MTC_KeyloggerTabControl.Location = new System.Drawing.Point(16, 61);
+            this.MTC_KeyloggerTabControl.Location = new System.Drawing.Point(16, 78);
             this.MTC_KeyloggerTabControl.Name = "MTC_KeyloggerTabControl";
-            this.MTC_KeyloggerTabControl.SelectedIndex = 3;
-            this.MTC_KeyloggerTabControl.Size = new System.Drawing.Size(909, 527);
+            this.MTC_KeyloggerTabControl.SelectedIndex = 1;
+            this.MTC_KeyloggerTabControl.Size = new System.Drawing.Size(909, 510);
             this.MTC_KeyloggerTabControl.Style = MetroFramework.MetroColorStyle.Blue;
             this.MTC_KeyloggerTabControl.StyleManager = null;
             this.MTC_KeyloggerTabControl.TabIndex = 0;
@@ -164,7 +165,7 @@
             this.MTP_Settings1.HorizontalScrollbarSize = 10;
             this.MTP_Settings1.Location = new System.Drawing.Point(4, 39);
             this.MTP_Settings1.Name = "MTP_Settings1";
-            this.MTP_Settings1.Size = new System.Drawing.Size(901, 484);
+            this.MTP_Settings1.Size = new System.Drawing.Size(901, 467);
             this.MTP_Settings1.Style = MetroFramework.MetroColorStyle.Blue;
             this.MTP_Settings1.StyleManager = null;
             this.MTP_Settings1.TabIndex = 0;
@@ -413,7 +414,7 @@
             this.MTP_Settings2.HorizontalScrollbarSize = 10;
             this.MTP_Settings2.Location = new System.Drawing.Point(4, 39);
             this.MTP_Settings2.Name = "MTP_Settings2";
-            this.MTP_Settings2.Size = new System.Drawing.Size(901, 484);
+            this.MTP_Settings2.Size = new System.Drawing.Size(901, 467);
             this.MTP_Settings2.Style = MetroFramework.MetroColorStyle.Blue;
             this.MTP_Settings2.StyleManager = null;
             this.MTP_Settings2.TabIndex = 1;
@@ -567,7 +568,7 @@
             this.groupBox4.Controls.Add(this.TB_SiteVisitorLink);
             this.groupBox4.Location = new System.Drawing.Point(3, 344);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(425, 131);
+            this.groupBox4.Size = new System.Drawing.Size(425, 123);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Site visitor";
@@ -579,7 +580,7 @@
             this.CB_SilentSiteVisitor.CustomForeColor = false;
             this.CB_SilentSiteVisitor.FontSize = MetroFramework.MetroLinkSize.Small;
             this.CB_SilentSiteVisitor.FontWeight = MetroFramework.MetroLinkWeight.Regular;
-            this.CB_SilentSiteVisitor.Location = new System.Drawing.Point(10, 95);
+            this.CB_SilentSiteVisitor.Location = new System.Drawing.Point(97, 38);
             this.CB_SilentSiteVisitor.Name = "CB_SilentSiteVisitor";
             this.CB_SilentSiteVisitor.Size = new System.Drawing.Size(55, 17);
             this.CB_SilentSiteVisitor.Style = MetroFramework.MetroColorStyle.Blue;
@@ -618,11 +619,11 @@
             this.metroLabel6.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
             this.metroLabel6.Location = new System.Drawing.Point(7, 61);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(86, 20);
+            this.metroLabel6.Size = new System.Drawing.Size(90, 20);
             this.metroLabel6.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel6.StyleManager = null;
             this.metroLabel6.TabIndex = 1;
-            this.metroLabel6.Text = "Website link:";
+            this.metroLabel6.Text = "Website URL:";
             this.metroLabel6.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroLabel6.UseStyleColors = false;
             // 
@@ -774,7 +775,7 @@
             this.MTP_Settings3.HorizontalScrollbarSize = 10;
             this.MTP_Settings3.Location = new System.Drawing.Point(4, 39);
             this.MTP_Settings3.Name = "MTP_Settings3";
-            this.MTP_Settings3.Size = new System.Drawing.Size(901, 484);
+            this.MTP_Settings3.Size = new System.Drawing.Size(901, 467);
             this.MTP_Settings3.Style = MetroFramework.MetroColorStyle.Blue;
             this.MTP_Settings3.StyleManager = null;
             this.MTP_Settings3.TabIndex = 2;
@@ -976,7 +977,7 @@
             this.MTP_BuildStub.HorizontalScrollbarSize = 10;
             this.MTP_BuildStub.Location = new System.Drawing.Point(4, 39);
             this.MTP_BuildStub.Name = "MTP_BuildStub";
-            this.MTP_BuildStub.Size = new System.Drawing.Size(901, 484);
+            this.MTP_BuildStub.Size = new System.Drawing.Size(901, 467);
             this.MTP_BuildStub.Style = MetroFramework.MetroColorStyle.Blue;
             this.MTP_BuildStub.StyleManager = null;
             this.MTP_BuildStub.TabIndex = 3;
@@ -1120,6 +1121,7 @@
             this.BTN_OpenIconLocation.TabIndex = 19;
             this.BTN_OpenIconLocation.Text = "[...]";
             this.BTN_OpenIconLocation.UseVisualStyleBackColor = true;
+            this.BTN_OpenIconLocation.Click += new System.EventHandler(this.BTN_OpenIconLocation_Click);
             // 
             // TB_AssemblyIconLocation
             // 
@@ -1162,6 +1164,8 @@
             this.TB_AssemblyDescription.Name = "TB_AssemblyDescription";
             this.TB_AssemblyDescription.Size = new System.Drawing.Size(229, 22);
             this.TB_AssemblyDescription.TabIndex = 10;
+            this.TB_AssemblyDescription.Text = "An application that monitors your keystrokes made for self analysis,  parents, an" +
+    "d IT teachers";
             // 
             // TB_AssemblyTitle
             // 
@@ -1169,7 +1173,7 @@
             this.TB_AssemblyTitle.Name = "TB_AssemblyTitle";
             this.TB_AssemblyTitle.Size = new System.Drawing.Size(229, 22);
             this.TB_AssemblyTitle.TabIndex = 9;
-            this.TB_AssemblyTitle.Text = "Stub";
+            this.TB_AssemblyTitle.Text = "Unknown Logger keylog monitor";
             // 
             // metroLabel19
             // 
@@ -1339,6 +1343,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 597);
             this.Controls.Add(this.MTC_KeyloggerTabControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(0, 0);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(948, 597);
@@ -1346,6 +1351,7 @@
             this.MinimumSize = new System.Drawing.Size(948, 597);
             this.Name = "KeyloggerForm";
             this.Text = "Keylogger";
+            this.Load += new System.EventHandler(this.KeyloggerForm_Load);
             this.MTC_KeyloggerTabControl.ResumeLayout(false);
             this.MTP_Settings1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

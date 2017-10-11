@@ -22,5 +22,17 @@ namespace Unknown_Logger
         {
             Unknown.OpenLink(GithubURL);
         }
+
+        private void BTN_OpenFileBinderForm_Click(object sender, EventArgs e)
+        {
+            FileBinderForm fileBinderForm = new FileBinderForm();
+            fileBinderForm.Show();
+        }
+
+        private void BTN_OpenSpooferForm_Click(object sender, EventArgs e)
+        {
+            EncryptForm encryptForm = new EncryptForm();
+            encryptForm.Show();
+        }
     }
 }
