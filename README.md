@@ -1,4 +1,4 @@
-# Unknown-Logger
+# Unknown Logger
 An advanced Windows Keylogger with features like (Disable CMD, Screenshotter, Client Stub Builder, Low Level Keyhooks, Hide Application, Respawner, Delete Chrome and Firefox data, and more!)
 
 [![CircleCI](https://img.shields.io/circleci/project/github/ntkme/github-buttons.svg)](https://circleci.com/gh/kanegovaert/unknown-logger)
