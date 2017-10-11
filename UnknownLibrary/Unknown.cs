@@ -1,4 +1,6 @@
-﻿namespace UnknownLibrary
+﻿using System.Windows.Forms;
+
+namespace UnknownLibrary
 {
     public static class Unknown
     {
@@ -15,6 +17,19 @@
             {
                 listBox.Items.Add("[-] " + Item);
             }
+        }
+        public static string GetFilePath(string filter)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.Multiselect = false;
+            dlg.InitialDirectory = Application.StartupPath;
+            dlg.Filter = filter;
+            dlg.RestoreDirectory = true;
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                return dlg.FileName;
+            }
+            return null;
         }
     }
 }

