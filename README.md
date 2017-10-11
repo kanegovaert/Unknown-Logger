@@ -1,19 +1,22 @@
 # Unknown-Logger
 An advanced Windows Keylogger with features like (Disable CMD, Screenshotter, Client Stub Builder, Low Level Keyhooks, Hide Application, Respawner, Delete Chrome and Firefox data, and more!)
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/kanegovaert" data-size="large" aria-label="Follow @ntkme on GitHub">Follow @ntkme</a>
 
- Welcome to Unknown Logger. One of the most powerful keyloggers that has ever been released open source. Thanks to the Metroframework Unknown Logger has a beautiful design.
+ Welcome to Unknown Logger. One of the most powerful keyloggers that has ever been released open source. Thanks to the Metroframework Unknown Logger has a beautiful design. Not only does it have a beautiful design but also contains amazing code, you know, the stuff everybody loves the most!
 
-Disclaimer: This keylogger was created for educational purposes only. This means that any other use is unrecommended. I am not responsible for your actions.
+**DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is unrecommended. I am not responsible for your actions.**
 
 # Features
-Unknown logger has a lot of features. Here are the main features:
+Unknown logger has a **lot** of features. Here are the main features:
 
     Low level keyhooks
     A client with runtime builder
     Disable CMD
     Hide application
-    Assembly setter
+    Assembly editor
+    Icon editor
     Disable control panel
     Fake messagebox
     Respawner
@@ -23,7 +26,7 @@ Unknown logger has a lot of features. Here are the main features:
     Disable taskmanager
     Take screenshots
     File binder
-    Spoofer
+    Encrypter
     Delete Chrome and Firefox data
     Add application to startup
 
