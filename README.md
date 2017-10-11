@@ -1,8 +1,7 @@
 # Unknown-Logger
 An advanced Windows Keylogger with features like (Disable CMD, Screenshotter, Client Stub Builder, Low Level Keyhooks, Hide Application, Respawner, Delete Chrome and Firefox data, and more!)
 
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/kanegovaert" data-size="large" aria-label="Follow @ntkme on GitHub">Follow @ntkme</a>
+(https://img.shields.io/circleci/project/github/ntkme/github-buttons.svg)](https://circleci.com/gh/ntkme/github-buttons)
 
  Welcome to Unknown Logger. One of the most powerful keyloggers that has ever been released open source. Thanks to the Metroframework Unknown Logger has a beautiful design. Not only does it have a beautiful design but also contains amazing code, you know, the stuff everybody loves the most!
 
