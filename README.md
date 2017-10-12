@@ -11,6 +11,8 @@ Welcome to Unknown Logger. One of the most powerful keyloggers that has ever bee
 
 **DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is NOT recommended. I am not responsible for your actions.**
 
+**Please check out** the TODO list. Some features haven't been tested or need to be fixed. You can read the TODO list [![here](https://github.com/kanegovaert/Unknown-Logger/blob/master/TODO.md)](https://github.com/kanegovaert/Unknown-Logger/blob/master/TODO.md)!
+
 # Features
 Unknown logger has a **lot** of features. Here are the main features:
 
