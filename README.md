@@ -6,6 +6,9 @@ An advanced Windows Keylogger with features like (Disable CMD, Screenshotter, Cl
 [![HitCount](http://hits.dwyl.com/kanegovaert/unknown-logger.svg)](http://hits.dwyl.com/kanegovaert/unknown-logger)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kanegovaert/unknown-logger/issues)
 
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) '**DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is NOT recommended. I am not responsible for your actions.**'
+
+
 
 Welcome to Unknown Logger. One of the most powerful keyloggers that has ever been released open source. Thanks to the [![MetroFramework](https://thielj.github.io/MetroFramework/)](https://thielj.github.io/MetroFramework/) Unknown Logger has a beautiful design. Not only does it have a beautiful design but also contains amazing code, you know, the stuff everybody loves the most!
 
