@@ -9,7 +9,7 @@ An advanced Windows Keylogger with features like (Disable CMD, Screenshotter, Cl
 
 Welcome to Unknown Logger. One of the most powerful keyloggers that has ever been released open source. Thanks to the Metroframework Unknown Logger has a beautiful design. Not only does it have a beautiful design but also contains amazing code, you know, the stuff everybody loves the most!
 
-**DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is unrecommended. I am not responsible for your actions.**
+**DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is NOT recommended. I am not responsible for your actions.**
 
 # Features
 Unknown logger has a **lot** of features. Here are the main features:
