@@ -6,7 +6,7 @@ An advanced Windows Keylogger with features like (Disable CMD, Screenshotter, Cl
 [![HitCount](http://hits.dwyl.com/kanegovaert/unknown-logger.svg)](http://hits.dwyl.com/kanegovaert/unknown-logger)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kanegovaert/unknown-logger/issues)
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) '**DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is NOT recommended. I am not responsible for your actions.**'
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is NOT recommended. I am not responsible for your actions.**
 
 
 
