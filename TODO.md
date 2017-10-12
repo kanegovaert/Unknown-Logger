@@ -30,3 +30,6 @@ working correctly. I will also add things that aren't working properly and bugs.
     Delete Chrome and Firefox data
     Add application to startup
     File Binder
+    
+## To be added 
+    Nice keystroke formatting
