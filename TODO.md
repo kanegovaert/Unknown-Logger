@@ -6,6 +6,13 @@ working correctly. I will also add things that aren't working properly and bugs.
 
 **DISCLAIMER: This keylogger was created for educational purposes only. This means that any other use is NOT recommended. I am not responsible for your actions.**
 
+[![CircleCI](https://img.shields.io/circleci/project/github/ntkme/github-buttons.svg)](https://circleci.com/gh/kanegovaert/unknown-logger)
+[![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
+[![HitCount](http://hits.dwyl.com/kanegovaert/unknown-logger.svg)](http://hits.dwyl.com/kanegovaert/unknown-logger)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kanegovaert/unknown-logger/issues)
+
+
+
 ## Works
     Time between sending logs
     Can properly compile stubs
