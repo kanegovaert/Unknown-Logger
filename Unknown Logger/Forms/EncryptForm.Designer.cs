@@ -48,7 +48,6 @@
             this.BTN_GetFileLocation.TabIndex = 7;
             this.BTN_GetFileLocation.Text = "[...]";
             this.BTN_GetFileLocation.UseVisualStyleBackColor = true;
-            this.BTN_GetFileLocation.Click += new System.EventHandler(this.BTN_GetFileLocation_Click);
             // 
             // materialLabel1
             // 

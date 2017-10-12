@@ -35,9 +35,9 @@
             this.TB_FileTwoLocation = new System.Windows.Forms.TextBox();
             this.BTN_GetFileLocationOne = new System.Windows.Forms.Button();
             this.BTN_GetFileLocationTwo = new System.Windows.Forms.Button();
-            this.BTN_GetIconLocation = new System.Windows.Forms.Button();
+            this.BTN_GetOutputFile = new System.Windows.Forms.Button();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.TB_IconLocation = new System.Windows.Forms.TextBox();
+            this.TB_OutputFile = new System.Windows.Forms.TextBox();
             this.BTN_BindFiles = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -101,15 +101,15 @@
             this.BTN_GetFileLocationTwo.UseVisualStyleBackColor = true;
             this.BTN_GetFileLocationTwo.Click += new System.EventHandler(this.BTN_GetFileLocationTwo_Click);
             // 
-            // BTN_GetIconLocation
+            // BTN_GetOutputFile
             // 
-            this.BTN_GetIconLocation.Location = new System.Drawing.Point(466, 197);
-            this.BTN_GetIconLocation.Name = "BTN_GetIconLocation";
-            this.BTN_GetIconLocation.Size = new System.Drawing.Size(52, 23);
-            this.BTN_GetIconLocation.TabIndex = 8;
-            this.BTN_GetIconLocation.Text = "[...]";
-            this.BTN_GetIconLocation.UseVisualStyleBackColor = true;
-            this.BTN_GetIconLocation.Click += new System.EventHandler(this.BTN_GetIconLocation_Click);
+            this.BTN_GetOutputFile.Location = new System.Drawing.Point(466, 197);
+            this.BTN_GetOutputFile.Name = "BTN_GetOutputFile";
+            this.BTN_GetOutputFile.Size = new System.Drawing.Size(52, 23);
+            this.BTN_GetOutputFile.TabIndex = 8;
+            this.BTN_GetOutputFile.Text = "[...]";
+            this.BTN_GetOutputFile.UseVisualStyleBackColor = true;
+            this.BTN_GetOutputFile.Click += new System.EventHandler(this.BTN_GetIconLocation_Click);
             // 
             // materialLabel3
             // 
@@ -120,16 +120,17 @@
             this.materialLabel3.Location = new System.Drawing.Point(23, 198);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(87, 24);
+            this.materialLabel3.Size = new System.Drawing.Size(71, 24);
             this.materialLabel3.TabIndex = 7;
-            this.materialLabel3.Text = "File Icon:";
+            this.materialLabel3.Text = "Output:";
             // 
-            // TB_IconLocation
+            // TB_OutputFile
             // 
-            this.TB_IconLocation.Location = new System.Drawing.Point(237, 198);
-            this.TB_IconLocation.Name = "TB_IconLocation";
-            this.TB_IconLocation.Size = new System.Drawing.Size(222, 22);
-            this.TB_IconLocation.TabIndex = 6;
+            this.TB_OutputFile.Location = new System.Drawing.Point(237, 198);
+            this.TB_OutputFile.Name = "TB_OutputFile";
+            this.TB_OutputFile.Size = new System.Drawing.Size(222, 22);
+            this.TB_OutputFile.TabIndex = 6;
+            this.TB_OutputFile.Text = "Unknown Logger combined.exe";
             // 
             // BTN_BindFiles
             // 
@@ -139,6 +140,7 @@
             this.BTN_BindFiles.TabIndex = 9;
             this.BTN_BindFiles.Text = "Bind";
             this.BTN_BindFiles.UseVisualStyleBackColor = true;
+            this.BTN_BindFiles.Click += new System.EventHandler(this.BTN_BindFiles_Click);
             // 
             // FileBinderForm
             // 
@@ -146,9 +148,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 309);
             this.Controls.Add(this.BTN_BindFiles);
-            this.Controls.Add(this.BTN_GetIconLocation);
+            this.Controls.Add(this.BTN_GetOutputFile);
             this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.TB_IconLocation);
+            this.Controls.Add(this.TB_OutputFile);
             this.Controls.Add(this.BTN_GetFileLocationTwo);
             this.Controls.Add(this.BTN_GetFileLocationOne);
             this.Controls.Add(this.materialLabel2);
@@ -175,9 +177,9 @@
         private System.Windows.Forms.TextBox TB_FileTwoLocation;
         private System.Windows.Forms.Button BTN_GetFileLocationOne;
         private System.Windows.Forms.Button BTN_GetFileLocationTwo;
-        private System.Windows.Forms.Button BTN_GetIconLocation;
+        private System.Windows.Forms.Button BTN_GetOutputFile;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private System.Windows.Forms.TextBox TB_IconLocation;
+        private System.Windows.Forms.TextBox TB_OutputFile;
         private System.Windows.Forms.Button BTN_BindFiles;
     }
 }
